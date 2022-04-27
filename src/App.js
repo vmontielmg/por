@@ -11,26 +11,33 @@ import {
   Link
 } from "react-router-dom";
 
+const linkStyle = {
+  textDecoration: 'none',
+  color: 'white'
+}
+
 function App() {
   return ( 
     <div className='App'>
       <BrowserRouter>
-        <nav>
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/about'>About</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
-            <li>
-              <Link to='/projects'>Projects</Link>
-            </li>
+        <div>
+           <ul className="nav-bar">
+              <li>
+                <Link to='/'>
+                  <img src={require('./images/vm-logo.png')} alt='logo' id='logo' />
+                </Link>
+              </li>
+              <li className="pageLink">
+                <Link to='/about' style={linkStyle}>About</Link>
+              </li>
+              <li className="pageLink">
+                <Link to='/projects' style={linkStyle}>Projects</Link>
+              </li>
+              <li className="pageLink">
+                <Link to='/contact' id="contact" style={linkStyle}>Contact</Link>
+              </li>
           </ul>
-        </nav>
+        </div>
 
         <Routes>
           <Route path='/' element={<Home />} />

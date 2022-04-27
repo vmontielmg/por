@@ -5,7 +5,7 @@ class About extends React.Component {
         return (
             <div className='about'>
                 <img src={require('../../images/vmontiel-icon.jpg')} alt='Headshot icon of Vanessa' className='headshot'></img>
-                {/* <img src='../../../vmontiel-icon.jpg' alt='testing'></img> */}
+                
                 
                 <h3>Vanessa Montiel</h3>
                 <p>
