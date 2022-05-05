@@ -1,0 +1,47 @@
+/* COLORS ******************
+FFF3D6 CORNSILK
+0B090B RICH BLACK FOGRA 39
+AC3931 SWEET BROWN
+F6CBD3 BABY PINK
+F7F3F3 SNOW
+
+6E675F GRANITE GREY
+EEEEFC MAGNOLIA
+86182B ANTIQUE RUBY
+9D4354 ENGLISH RED
+*/
+
+/* FONTS ******************* 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+OR
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+</style>
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+
+*/
+
+
+{/* <p> &#128105; </p>
+                    <p>Hola! Welcome to my Portfolio :) <br />
+                    My name is Vanessa and I am a Software Engineer based in Los Angeles, CA <br />
+                    Currently learning React (what this portfolio was built with) but knowledgeable in: <br />
+                    Java, C#, HTML/CSS, JavaScript, Object-Oriented Programming and eager to learn more! <br />
+                    </p> */}
+
+
+{/* &#128187  1F4BB laptop
+                    128205	1F4CD pin
+                    127891	1F393 grad cap
+
+
+                 */}
+
+
