@@ -60,6 +60,11 @@
   text-align: center;
 }
 
+.intro {
+  margin-top: 7vh;
+  font-size: larger;
+}
+
 #name {
   font-style: italic;
 }
@@ -76,6 +81,7 @@
   display: table;
   clear: both;
   text-align: justify;
+  margin-top: 5vh;
 }
 
 @media screen and (max-width: 600px) {
