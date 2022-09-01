@@ -2,7 +2,8 @@
 
 .App {
   text-align: center;
-  background-color: #F7F3F3;
+  /* background-color: #F7F3F3; */
+  background-color: #FBE9EB;
   height: inherit;
   font-family: 'Roboto Mono', monospace;
 }
@@ -11,9 +12,22 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
 .headshot {
   width: 200px;
   height: 200px;
+}
+
+#logo {
+  height: 64px;
+  width: 64px;
+  padding: 0px;
+  margin-right: 5px;
+  float: left;
 }
 
 .nav-bar {
@@ -21,20 +35,20 @@
   list-style-type: none;
   overflow: hidden;
   width: 100%;
-  height: 5em;
+  height: 4em;
   margin: 0;
   text-align: center;
+  padding-left: 0;
 }
 
-.pageLink {
+li.pageLink {
   display: inline-block;
-  text-decoration: none;
-  margin: 0;
-  padding: 30px 0px;
-  width: 20%;
-  font-size: 20px;
-  color: white;
+  font-size: 100%;
+  color: #FFFFFF;
+  width: 15%;
+  margin: 1% 0%;
 }
+
 
 .pageLink:visited {
   text-decoration: none;
@@ -44,11 +58,8 @@
   color: antiquewhite;
 }
 
-#logo {
-  height: 100px;
-  padding: 0;
-  margin-left: 20px;
-  float: left;
+.App.a {
+  color: olivedrab;
 }
 
 .self-portrait {
@@ -61,7 +72,7 @@
 }
 
 .intro {
-  margin-top: 7vh;
+  margin-top: 0;
   font-size: larger;
 }
 
@@ -81,12 +92,60 @@
   display: table;
   clear: both;
   text-align: justify;
-  margin-top: 5vh;
+  margin-top: 5%;
 }
 
-@media screen and (max-width: 600px) {
+.Contact {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 8% 2%;
+  display: inline-block;
+}
+
+.contactDescription {
+  width: 70%;
+  display: inline-block;
+}
+
+.contactLinks {
+  height: 50px;
+}
+
+.contactLinks svg {
+  height: 40px;
+}
+
+.contactLinks a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2em;
+  display: inline-block;
+  margin: 2% 3%;
+}
+
+.contactLinks a:visited {
+  text-decoration: none;
+}
+
+.contactLinks a:hover {
+  text-decoration: none;
+  color: #9D4354;
+}
+
+.contactLinks a:active {
+  text-decoration: none;
+}
+
+/* separates columns */
+@media screen and (max-width: 650px) {
   #column {
-    width: 100%;
+    width: 80%;
+    margin: 0% 12% 0% 12%;
+    font-size: 100%;
+  }
+  .Home.App {
+    width: 650px;
   }
 }
 
@@ -94,5 +153,35 @@
   .App {
     height: 100vh;
   }
-  
+  .Home {
+    margin-top: 0vh;
+  }
+}
+
+/* adjusts navbar */
+@media (max-width: 320px) {
+  li.pageLink {
+    width: auto;
+    font-size: small;
+    height: 50%;
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}
+
+.ProjectCard {
+  width: 250px;
+  height: 250px;
+
+}
+
+.projectName {
+  color: #AC3931;
+}
+
+.projectDescription {
+  background-color: #9D4354;
+  color: #FFF;
+  text-align: center;
 }
