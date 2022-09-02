@@ -20,7 +20,7 @@ class Contact extends React.Component {
                     <a href="https://www.linkedin.com/in/montiel-vanessa/" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /> </a>
                     <a href="https://github.com/vmontielmg" target="_blank"><FontAwesomeIcon icon={faGithub} /></a> 
                 </div>
-                {/* test */}
+                {/* test   */}
             </div>
 
         );
