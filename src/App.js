@@ -24,8 +24,11 @@ function App() {
            <ul className="nav-bar">
               <li>
                 <Link to='/'>
-                  <img src={require('./images/vm-logo.png')} alt='logo' id='logo' />
+                  <img src={require('../src/images/vm-logo.png')} alt='logo' id='logo' />
                 </Link>
+              </li>
+              <li className='pageLink'>
+                <Link to='/#' style={linkStyle}>Home</Link>
               </li>
               <li className="pageLink">
                 <Link to='/about' style={linkStyle}>About</Link>
