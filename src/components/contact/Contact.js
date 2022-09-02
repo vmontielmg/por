@@ -16,11 +16,10 @@ class Contact extends React.Component {
                     Feel free to reach out to me through any of the listed platforms and I will try to get back to you as soon as possible!
                 </p>
                 <div className="contactLinks">
-                    <a href="mailto:vmontielmg@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" /></a>
-                    <a href="https://www.linkedin.com/in/montiel-vanessa/" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /> </a>
-                    <a href="https://github.com/vmontielmg" target="_blank"><FontAwesomeIcon icon={faGithub} /></a> 
+                    <a href="mailto:vmontielmg@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="envelope" /></a>
+                    <a href="https://www.linkedin.com/in/montiel-vanessa/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faLinkedin} /> </a>
+                    <a href="https://github.com/vmontielmg" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a> 
                 </div>
-                {/* test   */}
             </div>
 
         );
